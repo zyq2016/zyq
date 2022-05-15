@@ -1,0 +1,59 @@
+.top {
+  background: #fff;
+  border-radius: 4px;
+  padding: 24px 20px;
+  margin-bottom: 20px;
+}
+
+.authorParent {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e4e6eb;
+  padding-bottom: 20px;
+}
+.authorParent > div {
+  width: 60px;
+  height: 60px;
+}
+
+.authorUl {
+  padding-top: 20px;
+  display: flex;
+}
+.authorUl > li {
+  flex: 1;
+}
+.authorUl > li > a {
+  font-size: 14px;
+  line-height: 24px;
+  color: #8a919f;
+  white-space: nowrap;
+}
+.rank {
+  padding: 24px 20px;
+  margin-bottom: 20px;
+  background: #fff;
+  padding-bottom: 0;
+}
+.rankTop {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e4e6eb;
+  padding-bottom: 20px;
+}
+.rankTop > h2 {
+  margin-bottom: 0;
+  flex: 1;
+}
+
+.rankBottom {
+  margin-top: 20px;
+  border-top: 1px solid #e4e6eb;
+  height: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  cursor: pointer;
+  color: #8a919f;
+}

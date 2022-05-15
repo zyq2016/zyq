@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  height: 60px;
+  border-bottom: 1px solid #f0f0f0;
+}
+.header > div {
+  margin-left: 24px;
+}
+.header_div {
+  flex: 1;
+}
+.header_div > ul {
+  border: none;
+}
+.message {
+  cursor: pointer;
+}

@@ -1,0 +1,12 @@
+.content {
+  width: 240px;
+}
+.authorRank {
+  background-color: #ffffff;
+  margin-top: 10px;
+  padding: 10px;
+}
+.getMore {
+  display: flex;
+  justify-content: center;
+}

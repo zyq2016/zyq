@@ -1,0 +1,50 @@
+.top {
+  height: 56px;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  padding-right: 10px;
+}
+.top > div:nth-of-type(1) {
+  flex: 1;
+}
+.menu > ul {
+  padding: 4px 0;
+}
+.menu > ul > li {
+  border-right: 1px solid #e5e6eb;
+}
+.articleList {
+  padding: 0 12px;
+  background-color: #ffffff;
+  height: calc(100vh - 230px);
+  overflow-y: auto;
+}
+.articleList > li {
+  padding: 10px 0;
+  border-bottom: 1px solid #e5e6eb;
+}
+.articleParent {
+  display: flex;
+  align-items: center;
+  height: 46px;
+}
+.acticleTitle {
+  flex: 1;
+  text-overflow: ellipsis;
+  margin-bottom: 0;
+  padding: 6px 0;
+}
+.articleShow {
+  display: flex;
+}
+.articleShow > span {
+  margin-right: 8px;
+  font-weight: 400;
+  font-size: 14px;
+  height: 22px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #86909c;
+}

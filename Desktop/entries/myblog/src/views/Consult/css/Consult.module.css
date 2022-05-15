@@ -1,0 +1,12 @@
+.content {
+  margin: 0 auto;
+  display: flex;
+  max-width: 960px;
+  padding-top: 20px;
+}
+.top {
+  background-color: #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}

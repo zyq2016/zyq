@@ -1,0 +1,40 @@
+.top {
+  padding: 20px;
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+
+.topOption {
+  margin-top: 10px;
+}
+
+.item {
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+
+.hotOption {
+  display: flex;
+  align-items: center;
+  height: 36px;
+  border-top: 1px solid #e4e6eb;
+  color: #86909c;
+}
+.hotOption > div {
+  flex: 1;
+  text-align: center;
+  cursor: pointer;
+}
+.hotOption > div > span {
+  margin-left: 10px;
+}
+
+.itemTop {
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 20px;
+  display: flex;
+}
+.avatarDiv {
+  margin-right: 20px;
+}

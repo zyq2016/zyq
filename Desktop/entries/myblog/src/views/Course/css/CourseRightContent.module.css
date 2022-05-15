@@ -1,0 +1,32 @@
+.content {
+  width: 240px;
+}
+.top {
+  text-align: center;
+  font-size: 24px;
+  padding: 16px 0;
+  background-color: #ffffff;
+  margin-bottom: 8px;
+}
+.top a {
+  color: black;
+}
+.top a > span {
+  color: blue;
+}
+.otherDiv1 {
+  padding: 15px 16px;
+  border-bottom: 1px solid #e6e8e8;
+}
+.otherDiv1 > h3 {
+  font-size: 18px;
+  color: #000;
+  margin-bottom: 0;
+}
+.otherDiv1 > p {
+  margin-top: 8px;
+  line-height: 1.4;
+  font-size: 14px;
+  color: #646464;
+  margin-bottom: 0;
+}
